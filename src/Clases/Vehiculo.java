@@ -5,15 +5,18 @@
  */
 package Clases;
 
+import ejercicionif.Nif;
+
 /**
  *
  * @author dam128
  */
 public class Vehiculo { 
     private String num_matricula,num_seguro,marca,modelo;
-    int año;
+    private int año;
+    private Nif propietario;
 
-    public Vehiculo(String num_matricula, String num_seguro, String marca, String modelo, int año) {
+    public Vehiculo(String num_matricula, String num_seguro, String marca, String modelo, int año, Nif propietario) {
         this.num_matricula = num_matricula;
         this.num_seguro = num_seguro;
         this.marca = marca;
